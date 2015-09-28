@@ -1,0 +1,18 @@
+.box1 {
+height: 10em;
+width: 10em;
+background-color: red;
+margin: 10px auto;
+border: 2px solid black;
+}
+.box2 {
+height: 10em;
+width: 10em;
+background-color: green;
+margin: 10px auto;
+border:2px solid black;
+}
+body {
+color: white;
+text-align: center;
+}

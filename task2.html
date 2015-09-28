@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>task2 squares</title>
+<link  rel="stylesheet" type="text/css" href="task2.css">
+</style>
+</head>
+<body>
+										//DOM methed//
+<div id="redBlock"class="grey">stop</div>
+<button id="stopButton">make red</button>
+
+<div id="greenBlock" class="grey">go</div>
+<button id="goButton">make green</button>
+
+<script type="text/javascript">
+
+var redButton = document.getElementById("stopButton");
+
+redButton.addEventListener("click", function () {
+var redBlock = document.getElementById("redBlock");
+redBlock.className = "red";
+});
+ 
+ var greenButton = document.getElementById("goButton");
+
+greenButton.addEventListener("click", function () {
+var greenBlock = document.getElementById("greenBlock");
+greenBlock.className = "green";
+});
+
+
+</script>
+</body>
+</html>
