@@ -3,14 +3,14 @@ var myButton = document.getElementById('button');
 	var myBlock = document.getElementById('block');
 
 	myButton.addEventListener('click', function() {
-	count += 1;
+ 	count += 1;
 		switch(count) {
 			
-		case 1 :
-			myBlock.className = "grey"; //without this class here there is alot of uncertainty!
+ 		case 1 :
+			myBlock.className = "grey";
 			myBlock.innerHTML = "Ouch!";
 			myButton.innerHTML = "Make red";
-			break;
+ 			break;
 
 		case 2 :
 			myBlock.className = "red";

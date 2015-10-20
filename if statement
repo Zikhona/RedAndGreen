@@ -1,0 +1,15 @@
+if (greybackground > 7) {
+	myBlock.className = "green";
+	myBlock.innerHTML = "go";
+	myButton.innerHTML = "Make red";
+}
+else if(redbackground>3) {
+	myBlock.className = "red";
+	myBlock.innerHTML = "stop";
+	myButton.innerHTML = "Make green";
+}
+else if(greenbackground === 15) {
+	myBlock.className = "green";
+	myBlock.innerHTML = "go";
+	myButton.innerHTML = "Touch me";
+};
